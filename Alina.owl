@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/alina/ontologies/2022/11/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/alina/ontologies/2022/11/untitled-ontology-2">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#В_університет"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Має_знання"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Нe_закінчує_навчання"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#На_педагога_англійської_мови"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#На_історичний_факультет"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Не_закінчує_навчання"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Отримує_повну_oсвіту"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Отримує_повну_освіту"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Подає_заявку"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Працює_з_репетитором"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Приймають_в_університет"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Хоче_стати"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Школяр"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Істориком"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Історії"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Англійської_мови"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Вчителем"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#З_англійсьої_мови"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#З_історії"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#На_курси_візажу"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Не_приймають_в_університет_та_йде_на_курси_підготовки"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Отримує_роботу_перекладачем"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Отрисмує_роботу_істориком"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Працює_вчителем_англійської_мови"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Працює_вчителем_історії"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Сидить_нa_шиї_у_батьків"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Сидить_на_шиї_у_батьків"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Шукaє_будь_яку_роботу"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Шукає_будь_яку_роботу"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#В_університет"/>
+        <Class IRI="#Подає_заявку"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Має_знання"/>
+        <Class IRI="#Школяр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Нe_закінчує_навчання"/>
+        <Class IRI="#На_педагога_англійської_мови"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#На_педагога_англійської_мови"/>
+        <Class IRI="#Приймають_в_університет"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#На_історичний_факультет"/>
+        <Class IRI="#Приймають_в_університет"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Не_закінчує_навчання"/>
+        <Class IRI="#На_історичний_факультет"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Отримує_повну_oсвіту"/>
+        <Class IRI="#На_педагога_англійської_мови"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Отримує_повну_освіту"/>
+        <Class IRI="#На_історичний_факультет"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Подає_заявку"/>
+        <Class IRI="#Школяр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Працює_з_репетитором"/>
+        <Class IRI="#Школяр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Приймають_в_університет"/>
+        <Class IRI="#В_університет"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Хоче_стати"/>
+        <Class IRI="#Школяр"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Хоче_стати"/>
+        <NamedIndividual IRI="#Істориком"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Має_знання"/>
+        <NamedIndividual IRI="#Історії"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Має_знання"/>
+        <NamedIndividual IRI="#Англійської_мови"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Хоче_стати"/>
+        <NamedIndividual IRI="#Вчителем"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Працює_з_репетитором"/>
+        <NamedIndividual IRI="#З_англійсьої_мови"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Працює_з_репетитором"/>
+        <NamedIndividual IRI="#З_історії"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Подає_заявку"/>
+        <NamedIndividual IRI="#На_курси_візажу"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#В_університет"/>
+        <NamedIndividual IRI="#Не_приймають_в_університет_та_йде_на_курси_підготовки"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Отримує_повну_oсвіту"/>
+        <NamedIndividual IRI="#Отримує_роботу_перекладачем"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Отримує_повну_освіту"/>
+        <NamedIndividual IRI="#Отрисмує_роботу_істориком"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Отримує_повну_oсвіту"/>
+        <NamedIndividual IRI="#Працює_вчителем_англійської_мови"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Отримує_повну_освіту"/>
+        <NamedIndividual IRI="#Працює_вчителем_історії"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Не_закінчує_навчання"/>
+        <NamedIndividual IRI="#Сидить_нa_шиї_у_батьків"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Нe_закінчує_навчання"/>
+        <NamedIndividual IRI="#Сидить_на_шиї_у_батьків"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Не_закінчує_навчання"/>
+        <NamedIndividual IRI="#Шукaє_будь_яку_роботу"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Нe_закінчує_навчання"/>
+        <NamedIndividual IRI="#Шукає_будь_яку_роботу"/>
+    </ClassAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
